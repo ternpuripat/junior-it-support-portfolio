@@ -1,14 +1,10 @@
 # Junior IT Support Portfolio
 
-This repository documents my hands-on practice and learning journey
-towards a Junior IT Support (WFH) role.
-
-## Background
-- Former Help Desk for a web-based system
-- Experience in user support, log checking, and coordination with developers
-- Currently upskilling in modern IT support tools (Windows, M365, Entra ID)
+This repository shows my hands-on entries
+as I train towards a Junior IT Support role.
 
 ## Contents
-- Common user issue handling
-- Ticket workflow examples
-- Basic troubleshooting documentation
+
+- `cases/` – Realistic user support cases
+- `scripts/` – Basic support scripts
+- `docs/` – Documentation of key support topics
