@@ -1,19 +1,21 @@
 ## Case: User Cannot Login
 
-**Issue**
-User reports inability to log in to the system.
+**Problem**
+A user reports that they cannot login to the company portal.
 
-**Initial Checks**
-- Verified username and account status
-- Checked error message from user
-- Reviewed authentication logs
+**Initial Findings**
+- User provided an error message: "Invalid credentials"
+- Checked user status in Active Directory / Entra ID
+- Account was active but locked
 
-**Root Cause**
-Incorrect password / account locked after multiple attempts.
+**Action Taken**
+- Reset user password
+- Unlocked user account
+- Instructed user to login with new password and enable MFA
 
-**Resolution**
-- Reset password
-- Advised user to re-login and update password
+**Outcome**
+User was able to login successfully after reset.
 
-**Prevention**
-- User education on password policy
+**Lesson Learned**
+- Check account lock status before resetting password
+- Educate user on MFA and password policy
